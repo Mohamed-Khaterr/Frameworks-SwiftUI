@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  FrameworksGridView.swift
 //  AppleFrameworks
 //
 //  Created by Epic_Sys on 29/03/2024.
@@ -7,7 +7,10 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct FrameworksGridView: View {
+    
+    private let frameworks: [Framework] = MockData.frameworks
+    
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -20,5 +23,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    FrameworksGridView()
 }
