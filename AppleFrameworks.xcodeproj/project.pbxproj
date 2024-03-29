@@ -51,9 +51,9 @@
 		870C1CD82BB730D60026E4D7 /* AppleFrameworks */ = {
 			isa = PBXGroup;
 			children = (
+				870C1CE72BB7313E0026E4D7 /* Resources */,
 				870C1CD92BB730D60026E4D7 /* AppleFrameworksApp.swift */,
 				870C1CDB2BB730D60026E4D7 /* ContentView.swift */,
-				870C1CDD2BB730DA0026E4D7 /* Assets.xcassets */,
 				870C1CDF2BB730DA0026E4D7 /* Preview Content */,
 			);
 			path = AppleFrameworks;
@@ -65,6 +65,14 @@
 				870C1CE02BB730DA0026E4D7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		870C1CE72BB7313E0026E4D7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				870C1CDD2BB730DA0026E4D7 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
