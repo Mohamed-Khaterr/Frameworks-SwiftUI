@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+struct Framework: Hashable {
+    let name: String
+    let image: String
+    let description: String
+    let urlString: String
+}
